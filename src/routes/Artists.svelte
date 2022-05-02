@@ -28,7 +28,7 @@
       <CardHeader title="Artists" />
       <CardContent>
         {#each index as item}
-        <h1 class="index">{item.name}</h1>
+        <h1 id={item.name} class="index">{item.name}</h1>
         {#each item.artist as artist}
           <Artist {artist} />
         {/each}

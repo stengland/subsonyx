@@ -26,14 +26,14 @@
   };
   const menuItems: MenuItem[] = [
     { id: 'home', text: 'Home', route: '/player', icon: MdHome },
-    { id: 'albums', text: 'Albums', route: '/albums', icon: MdList },
+    { id: 'albums', text: 'Latest', route: '/albums', icon: MdList },
     { id: 'artists', text: 'Artists', route: '/artists', icon: MdList },
     { id: 'settings', text: 'Settings', route: '/settings/display', icon: MdSettings },
   ];
 </script>
 
 <NavGroup groupId="app-menu">
-  <div class="header">OnyxUI Demo</div>
+  <div class="header">Subsonyx</div>
   <div class="scroller" data-nav-scroller>
     {#each menuItems as item, i}
       <ListItem
